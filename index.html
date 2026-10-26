@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammar as Code | 英文法をプログラムで学ぶ 中学英語</title>
+<meta name="description" content="中学英語の文法をプログラミングのコードに置き換えて学ぶ学習サイト。be動詞は代入、疑問文は確認クエリ、if文はそのままif文。14ユニット56問のクイズで楽しく定着。">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1117'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='24' font-weight='bold' fill='%23d2a8ff' text-anchor='middle'%3E%3C/%3E%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="#/" aria-label="ホームへ戻る">
+      <span class="logo-mark">&lt;/&gt;</span>
+      <span class="logo-text">Grammar&nbsp;<em>as</em>&nbsp;Code</span>
+      <span class="logo-sub">英文法をプログラムで学ぶ</span>
+    </a>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a href="#/" data-nav="home">ホーム</a>
+      <a href="#/map" data-nav="map">対応表</a>
+    </nav>
+    <div class="header-progress" id="header-progress" aria-live="polite"></div>
+  </div>
+</header>
+
+<main id="app" class="app-main" tabindex="-1"></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <p class="footer-logo"><span class="logo-mark">&lt;/&gt;</span> Grammar as Code</p>
+      <p class="footer-desc">中学英語の文法を「プログラムに置き換える」ことで、丸暗記ではなく仕組みから理解する学習サイトです。学習の進捗はこのブラウザに自動保存されます。</p>
+    </div>
+    <div class="footer-right">
+      <ul class="footer-links">
+        <li><a href="#/">ホーム</a></li>
+        <li><a href="#/map">対応表</a></li>
+        <li><a href="#/unit/unit-1">Unit 1 から始める</a></li>
+      </ul>
+      <button type="button" id="reset-progress" class="reset-btn">進捗をリセット</button>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; Grammar as Code — GitHub Pages で公開できる静的サイトです。</p>
+</footer>
+
+<noscript>
+  <div style="padding:2rem;text-align:center;color:#e6edf3;background:#161b22;">
+    このサイトはJavaScriptを使用します。ブラウザのJavaScriptを有効にしてください。
+  </div>
+</noscript>
+
+<script src="js/data-units-a.js"></script>
+<script src="js/data-units-b.js"></script>
+<script src="js/data-misc.js"></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
